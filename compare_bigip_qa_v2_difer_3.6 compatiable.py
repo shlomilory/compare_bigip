@@ -38,6 +38,7 @@ if not os.path.exists(directory_c):
 #Define Logger
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename='logs//info.log', encoding='utf-8', level=logging.DEBUG, format='%(asctime)s %(message)s')
+open('file.txt', 'w').close()
 
 #FUNCTIONS
 ###########################################################################################
